@@ -1,0 +1,188 @@
+footer {
+  width: 100%;
+  height: 100vh;
+}
+.email {
+  width: 100%;
+  background-image: url(../../../assets/image/footer.png);
+  background-color: blue;
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: #041e42;
+}
+.email .cont {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.email .cont .info,
+.email .cont .inputs {
+  width: 47%;
+}
+.email .cont .info h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  font-family: "Spartan", sans-serif;
+}
+.email .cont .info p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #818ea0;
+}
+.email .cont .info p span {
+  color: #ffbd27;
+}
+.w-90 {
+  width: 80%;
+}
+.nobb {
+  border-radius: 0px;
+  border-radius: 0px 5px 5px 0px;
+}
+.email .cont .input_bord {
+  border-radius: 0px;
+  border-radius: 5px 0px 0px 5px;
+}
+.footerinfo {
+  display: flex;
+  margin-top: 50px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerinfo .Contact {
+  width: 35%;
+}
+.footerinfo .Contact h4 {
+  color: #222;
+  font-size: 17px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-family: "Spartan", sans-serif;
+  padding-bottom: 17px;
+}
+.footerinfo .Contact p {
+  color: #465b52;
+  font-size: 13px;
+  margin: 0 0 8px 0;
+  font-family: "Spartan", sans-serif;
+}
+.footerinfo .Contact .follow {
+  margin-top: 20px;
+}
+.footerinfo .Contact .follow i {
+  margin: 5px;
+}
+.footerinfo .About,
+.footerinfo .My_Account {
+  width: 12%;
+}
+.footerinfo .About h4,
+.footerinfo .My_Account h4,
+.footerinfo .Install_App h4 {
+  color: #222;
+  font-size: 17px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-family: "Spartan", sans-serif;
+  padding-bottom: 17px;
+}
+.footerinfo .Install_App h4 {
+  padding-bottom: 5px;
+}
+.footerinfo .About a,
+.footerinfo .My_Account a {
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: #222;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: "Spartan", sans-serif;
+  display: block;
+}
+.footerinfo .Install_App {
+  width: 30%;
+}
+.footerinfo .Install_App p {
+  color: #465b52;
+  font-size: 13px;
+  margin: 0 0 8px 0;
+}
+.footerinfo .Install_App .row {
+  justify-content: space-between;
+}
+.footerinfo .Install_App .row img {
+  border: 1px solid #088178;
+  border-radius: 6px;
+  margin: 6px 0 15px 0;
+}
+.footerinfo .Install_App img {
+  margin: 10px 0 15px 0;
+}
+.copyright {
+  text-align: center;
+  margin-top: 50px;
+}
+.copyright p {
+  font-size: 16px;
+  color: #465b52;
+  margin: 15px 0 20px 0;
+  font-family: "Spartan", sans-serif;
+}
+
+@media (max-width: 786px) {
+  .email .cont {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 30px 10px;
+  }
+  .email .cont .info,
+  .email .cont .inputs {
+    width: 100%;
+  }
+  .footerinfo {
+    flex-wrap: wrap;
+  }
+  .footerinfo .Contact {
+    width: 60%;
+  }
+  .footerinfo .About {
+    width: 25%;
+  }
+  .footerinfo .My_Account {
+    width: 25%;
+  }
+  .footerinfo .Install_App {
+    width: 40%;
+  }
+}
+@media (max-width: 512px) {
+  .email .cont {
+    padding: 15px 0px;
+    justify-content: none;
+  }
+  .email .cont .info h4 {
+    font-size: 14px;
+  }
+  .email .cont .info p {
+    font-size: 12px;
+    margin: 0px;
+  }
+  .w-90 {
+    width: 70%;
+  }
+  .footerinfo {
+    flex-direction: column;
+  }
+  .footerinfo .Contact,
+  .footerinfo .About,
+  .footerinfo .My_Account,
+  .footerinfo .Install_App {
+    width: 95%;
+  }
+}

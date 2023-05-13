@@ -1,0 +1,127 @@
+.page-header {
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  background-image: url(../../assets/image/aboutH.png);
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+.page-header h2 {
+  font-size: 56px;
+  line-height: 54px;
+  color: white;
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+}
+.page-header p {
+  color: white;
+  font-size: 21px;
+  margin: 15px 0 20px 0;
+  font-family: "Spartan", sans-serif;
+  font-weight: 500;
+}
+.home {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+.home .image {
+  width: 50%;
+}
+.home .info {
+  width: 43%;
+  padding: 5px 20px;
+}
+.home .image img {
+  width: 100%;
+  height: auto;
+}
+.home .info h2 {
+  font-weight: 700;
+  font-family: "Spartan", sans-serif;
+  font-size: 36px;
+  line-height: 45px;
+  padding: 20px 0;
+}
+.home .info p {
+  font-size: 19px;
+  color: #465b52;
+  font-family: "Spartan", sans-serif;
+  font-weight: 300;
+  margin: 15px 0 20px 0;
+}
+.home .info span {
+  font-size: 12px;
+  font-family: "Spartan", sans-serif;
+  margin: 15px 0 20px 0;
+  font-weight: 900;
+}
+.home .info h3 {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+.home .info li {
+  list-style: none;
+  display: flex;
+  padding: 10px 0;
+}
+.home .info li p {
+  font-size: 16px;
+  color: #465b52;
+  font-family: "Spartan", sans-serif;
+  font-weight: 300;
+  margin: -4px 0 20px 11px;
+}
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    height: auto;
+  }
+  .home .image {
+    width: 100%;
+  }
+  .home .info {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+.datacoment {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.datacoment .inputs {
+  width: 69%;
+}
+.user {
+  width: 25%;
+}
+.user .persole {
+  padding-bottom: 25px;
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+}
+.user .persole img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+.user .persole p {
+  color: #465b52;
+  font-size: 15px;
+    line-height: 26px;
+}
+.user .persole p span {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
